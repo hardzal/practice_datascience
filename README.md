@@ -5,9 +5,7 @@
 	- Machine Learning 
 	- Deep Learning
 	- Data Science
-
 ### Example Code
 	- R
 	- Python
-
 ---
