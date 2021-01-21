@@ -8,4 +8,5 @@
 ### Example Code
 	- R
 	- Python
+	- Julia
 ---
