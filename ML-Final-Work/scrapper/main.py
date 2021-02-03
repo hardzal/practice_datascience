@@ -12,7 +12,9 @@ def search_jobs(jobs):
         job_company = job.find('a', class_='company')
         job_location = job.find('span', class_='location')
         job_type = job.find('strong')
+        
         job_posted = job.find('span', class_='when relatize relatized')
+        
         job_link = job_title.a['href']
         new_access = requests.get(job_link)
         job_detail = BeautifulSoup(new_access.content, 'lxml')
